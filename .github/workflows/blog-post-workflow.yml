@@ -1,17 +1,22 @@
-name: Update blog posts
+name: Latest blog post workflow
 on:
   schedule:
-    - cron: "0 0 * * 1"   # Mondays 00:00 UTC
+    - cron: "0 * * * *"   # Mondays 00:00 UTC
     
   workflow_dispatch:
+  
+permissions:
+  actions: write
 
 jobs:
   update-readme-with-blog:
     name: Update this repo's README with latest blog posts
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: gautamkrishnar/blog-post-workflow@master
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Pull in linsnotes.com posts
+        uses: gautamkrishnar/blog-post-workflow@v1
         with:
           max_post_count: "5"
           feed_list: "https://linsnotes.com/feed.xml"
