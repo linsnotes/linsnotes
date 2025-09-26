@@ -20,13 +20,3 @@ jobs:
         with:
           max_post_count: "5"
           feed_list: "https://linsnotes.com/feed.xml"
-          skip_commit: "true"
-
-      # Commit whatever changed and open/update a PR
-      - uses: peter-evans/create-pull-request@v7
-        with:
-          branch: chore/update-latest-posts
-          commit-message: "chore: update latest blog posts"
-          title: "chore: update latest blog posts"
-          body: "Automated update via blog-post-workflow"
-          labels: "automation"
