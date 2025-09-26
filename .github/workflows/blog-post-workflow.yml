@@ -1,10 +1,11 @@
 name: Latest blog post workflow
 on:
   schedule:
-    - cron: "0 * * * *"   # Mondays 00:00 UTC
+    - cron: "0 0 * * 1"   # Mondays 00:00 UTC (corrected)
   workflow_dispatch:
   
 permissions:
+  contents: write  # Required to update README
   actions: write
 
 jobs:
@@ -13,7 +14,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: gautamkrishnar/blog-post-workflow@master
+      - uses: gautamkrishnar/blog-post-workflow@v1.9.0  # Use specific version
         with:
           max_post_count: "5"
           feed_list: "https://linsnotes.com/feed.xml"
