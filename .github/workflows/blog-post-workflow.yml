@@ -7,6 +7,7 @@ on:
   
 permissions:
   actions: write
+  pull-requests: write
 
 jobs:
   update-readme-with-blog:
@@ -20,3 +21,4 @@ jobs:
         with:
           max_post_count: "5"
           feed_list: "https://linsnotes.com/feed.xml"
+          skip_commit: "true"
