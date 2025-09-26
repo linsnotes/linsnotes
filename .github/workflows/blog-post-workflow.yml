@@ -2,7 +2,6 @@ name: Latest blog post workflow
 on:
   schedule:
     - cron: "0 * * * *"   # Mondays 00:00 UTC
-    
   workflow_dispatch:
   
 permissions:
@@ -16,9 +15,8 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-      - name: Pull in linsnotes.com posts
+      - name: Pull in posts
         uses: gautamkrishnar/blog-post-workflow@master
         with:
           max_post_count: "5"
           feed_list: "https://linsnotes.com/feed.xml"
-          skip_commit: "true"
