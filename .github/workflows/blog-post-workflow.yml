@@ -2,6 +2,7 @@ name: Update blog posts
 on:
   schedule:
     - cron: "0 0 * * 1"   # Mondays 00:00 UTC
+    
   workflow_dispatch:
 
 jobs:
