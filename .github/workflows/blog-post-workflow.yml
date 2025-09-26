@@ -16,7 +16,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
       - name: Pull in linsnotes.com posts
-        uses: gautamkrishnar/blog-post-workflow@v1
+        uses: gautamkrishnar/blog-post-workflow@v1.9.3
         with:
           max_post_count: "5"
           feed_list: "https://linsnotes.com/feed.xml"
