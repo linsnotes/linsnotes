@@ -7,10 +7,10 @@
 
 ### 📚 Latest Posts
 <!-- BLOG-POST-LIST:START -->
+- [Machine Learning Algorithms Explained End-to-End Pipeline Guide](https://linsnotes.com/posts/machine-learning-algorithms-explained-end-to-end-pipeline-guide/)
 - [Deploying n8n AI Starter Kit on Raspberry Pi](https://linsnotes.com/posts/deploying-n8n-ai-starter-kit-on-raspberry-pi/)
 - [How to Safely Backup and Restore Nginx Proxy Manager in Docker](https://linsnotes.com/posts/how-to-safely-backup-and-restore-nginx-proxy-manager-in-docker/)
 - [How to Set Up Raspberry Pi with Docker, Portainer &amp; iptables](https://linsnotes.com/posts/how-to-set-up-raspberry-pi-with-docker-portainer-iptables/)
 - [Full custom HTML page with GoatCounter](https://linsnotes.com/posts/full-custom-html-page-with-goatcounter/)
-- [if __name__ == &quot;__main__&quot; in Python](https://linsnotes.com/posts/name-eq-main-in-python/)
 <!-- BLOG-POST-LIST:END -->
 
