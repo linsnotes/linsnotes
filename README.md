@@ -7,10 +7,10 @@
 
 ### 📚 Latest Posts
 <!-- BLOG-POST-LIST:START -->
+- [SSH Connections to Private GitLab and GitHub](https://linsnotes.com/posts/ssh-connections-to-private-gitlab-and-github/)
 - [A Beginner&#39;s Guide to Contributing on GitHub](https://linsnotes.com/posts/a-beginners-guide-to-contributing-on-github/)
 - [Python Logging Setup for Data Science and Machine Learning](https://linsnotes.com/posts/python-logging-setup-data-science-machine-learning/)
 - [Machine Learning Algorithms Explained End-to-End Pipeline Guide](https://linsnotes.com/posts/machine-learning-algorithms-explained-end-to-end-pipeline-guide/)
 - [Deploying n8n AI Starter Kit on Raspberry Pi](https://linsnotes.com/posts/deploying-n8n-ai-starter-kit-on-raspberry-pi/)
-- [How to Safely Backup and Restore Nginx Proxy Manager in Docker](https://linsnotes.com/posts/how-to-safely-backup-and-restore-nginx-proxy-manager-in-docker/)
 <!-- BLOG-POST-LIST:END -->
 
